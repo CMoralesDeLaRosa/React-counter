@@ -6,7 +6,7 @@ const ButtonsCount = ({ increment, decrement, reset }) => {
     <div className='div-buttons-count flex-container'>
       <Button buttonTitle='+' className='button-counter' onClick={increment} />
       <Button buttonTitle='-' className='button-counter' onClick={decrement} />
-      <Button buttonTitle='Reset' className='button-reset' onClick={reset} />
+      <Button buttonTitle='Reiniciar' className='button-reset' onClick={reset} />
     </div>
   )
 }
