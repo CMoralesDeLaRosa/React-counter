@@ -30,7 +30,7 @@ Si el contador excede los límites establecidos (0 o el valor máximo), se muest
 Para instalar y configurar el proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
-   git clone https://github.com/tu_usuario/tu_repositorio.git](https://github.com/CMoralesDeLaRosa/React-counter.git)
+   git clone https://github.com/tu_usuario/tu_repositorio.git
 
 2. Navega al directorio del proyecto:
    cd tu_repositorio
