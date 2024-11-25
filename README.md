@@ -7,6 +7,7 @@
 - Instalación
 - Características
 - Desarrollo
+- Mejoras
 - Tecnologías
 
 ## 1.Descripción
@@ -61,8 +62,14 @@ El proyecto está diseñado para ser simple, modular y fácil de entender. Los c
 
 2. Uso de memo en el Componente Button
    El componente Button está envuelto en memo, para optimizar el rendimiento al evitar re-renderizados innecesarios. Aunque el uso de memo no es esencial en este proyecto, dado que es pequeño y no involucra una carga de recursos significativa, se ha utilizado como ejemplo de optimización.
+   
 
-## 6.Tecnologías
+## 6.Mejoras
+
+Actualmente, cuando el contador llega a su valor mínimo o máximo, los botones de incremento y decremento dejan de funcionar, pero no se deshabilitan visualmente. Esto podría generar confusión en el usuario, ya que no hay una indicación clara de que esos botones no están activos. Para mejorar este especto se propone el cambio de estilos en los botones deshabilitados para que visualmente se vea que no son interactivos. Por ejemplo, podrían cambiar su color, reducir su opacidad o agregar un ícono de bloqueo, lo que indicaría que no están disponibles. Implementar esta mejora no solo haría el sistema más intuitivo, sino que también mejoraría la accesibilidad y la interacción visual.
+
+
+## 7.Tecnologías
 
 1. React: Biblioteca para construir interfaces de usuario.
 2. React Hooks: Para gestionar el estado y efectos secundarios en componentes funcionales.
