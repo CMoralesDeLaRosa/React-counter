@@ -1,0 +1,13 @@
+.div-show-count {
+  width: 70px;
+  height: 100px;
+  border-radius: var(--br1);
+  border: 1px solid var(--color2);
+  background-color: var(--third-bg);
+}
+
+.div-show-count h3 {
+  color: var(--color1);
+  font-size: 30px;
+  font-weight: 400;
+}

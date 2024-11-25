@@ -1,0 +1,41 @@
+.button-counter {
+  width: 100px;
+  height: 50px;
+  border-radius: var(--br1);
+  background-color: var(--sixth-bg);
+  color: var(--second-text);
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border: none;
+}
+.button-counter:hover {
+  background-color: var(--seventh-bg);
+  transform: scale(1.03);
+}
+.button-counter:active {
+  transform: scale(0.98);
+}
+
+.button-reset {
+  width: 100px;
+  height: 50px;
+  border-radius: var(--br1);
+  background-color: var(--forth-bg);
+  color: var(--second-text);
+  border: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.button-reset:hover {
+  background-color: var(--fifth-bg);
+  transform: scale(1.03);
+}
+.button-reset:active {
+  transform: scale(0.98);
+}
